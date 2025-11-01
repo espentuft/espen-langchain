@@ -1,0 +1,31 @@
+# Core LangChain and LangGraph
+langchain>=0.3.0
+langgraph>=0.2.0
+langchain-core>=0.3.0
+
+# LLM Providers
+langchain-openai>=0.2.0
+langchain-anthropic>=0.2.0
+
+# Visual debugging and observability
+langsmith>=0.2.0
+
+# Development tools
+jupyter>=1.0.0
+ipywidgets>=8.0.0
+matplotlib>=3.8.0
+networkx>=3.2.0  # For graph visualization
+# graphviz>=0.20.0  # Optional - requires system graphviz
+# pygraphviz>=1.11  # Optional - requires system graphviz
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Async and utilities
+aiohttp>=3.9.0
+pydantic>=2.5.0
+
+# Type checking
+mypy>=1.7.0
+types-python-dateutil>=2.9.0
+

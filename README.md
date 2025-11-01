@@ -4,6 +4,8 @@ A **visual-first** learning environment for building multi-agent workflows with 
 
 ## 🚀 Quick Start
 
+**👋 NEW?** Read [`START_HERE.md`](START_HERE.md) first!
+
 This project uses **Python** for multi-agent workflows and learning. Node.js setup is available but Python is recommended for LangGraph.
 
 ### Python Setup (Recommended)
@@ -39,16 +41,24 @@ npm run dev
 espen-langchain/
 ├── python/                    # 🐍 Python learning environment (Recommended)
 │   ├── examples/              # Runnable examples
-│   │   ├── 01_simple_agent.py         # Basic agent setup
-│   │   └── 02_multi_agent_graph.py    # Multi-agent workflows with visualization
+│   │   ├── 01_simple_agent.py              # Basic agent setup
+│   │   ├── 02_multi_agent_graph.py         # Visual multi-agent patterns
+│   │   └── 03_langgraph_real_multi_agent.py # Real LangGraph implementation
+│   ├── notebooks/             # Interactive Jupyter notebooks
+│   │   ├── 00_setup_and_overview.py       # Setup verification
+│   │   └── 01_multi_agent_interactive.py  # Interactive learning
 │   ├── agents/                # Reusable agent implementations
 │   ├── visualizations/        # Generated graphs and charts
-│   └── notebooks/             # Interactive Jupyter notebooks
+│   └── README.md             # Detailed Python learning guide
 │
-├── src/                       # 📦 Node.js source (Optional)
 ├── docs/                      # 📚 Documentation
+│   ├── QUICK_START.md        # Complete learning path
+│   ├── LANGSMITH_SETUP.md    # Observability setup
+│   └── SETUP.md              # Detailed setup
+├── src/                       # 📦 Node.js source (Optional)
 ├── venv/                      # Python virtual environment
-└── requirements.txt           # Python dependencies
+├── requirements.txt           # Python dependencies
+└── START_HERE.md             # 👋 Start your journey here!
 
 ```
 
@@ -59,11 +69,15 @@ espen-langchain/
 1. **Setup**: Activate venv and configure API keys
 2. **Simple Agent**: Run `python python/examples/01_simple_agent.py`
 3. **Multi-Agent**: Run `python python/examples/02_multi_agent_graph.py`
-4. **Interactive**: Launch Jupyter Lab for hands-on exploration
+4. **Real LangGraph**: Run `python python/examples/03_langgraph_real_multi_agent.py`
+5. **Interactive**: Launch Jupyter Lab for hands-on exploration
 
 ### Key Resources
 
-- 📖 [Python README](python/README.md) - Detailed Python learning guide
+- 🚀 [START_HERE.md](START_HERE.md) - **Begin your journey here!**
+- 📖 [Quick Start Guide](docs/QUICK_START.md) - Complete learning path
+- 📚 [Python README](python/README.md) - Detailed Python learning guide
+- 🔍 [LangSmith Setup](docs/LANGSMITH_SETUP.md) - Visual debugging
 - 🔗 [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview)
 - 🎨 [Multi-Agent Guide](https://blog.langchain.com/langgraph-multi-agent-workflows)
 
@@ -94,6 +108,9 @@ espen-langchain/
 
 ## 📚 Additional Documentation
 
+- `START_HERE.md` - **👋 Start your journey**
+- `docs/QUICK_START.md` - Complete learning path
+- `docs/LANGSMITH_SETUP.md` - Visual debugging setup
 - `python/README.md` - Detailed Python learning guide
 - `docs/SETUP.md` - Detailed setup instructions
 - `GIT_SETUP.md` - Git and GitHub setup

@@ -1,0 +1,31 @@
+{
+  "name": "espen-langchain",
+  "version": "0.1.0",
+  "description": "LangChain experiments and applications",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "langchain",
+    "ai",
+    "llm",
+    "chain"
+  ],
+  "author": "Espen Tuft",
+  "license": "MIT",
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "langchain": "^0.3.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "eslint": "^9.36.0",
+    "typescript": "^5.9.3"
+  }
+}
+

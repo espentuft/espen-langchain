@@ -1,0 +1,35 @@
+# Project: Espen LangChain
+
+## Main Goal
+Experiment with and build applications using LangChain for AI/LLM development.
+
+## Tech Stack
+- LangChain (JavaScript or Python)
+- TypeScript/JavaScript or Python
+- Node.js runtime or Python virtual environment
+
+## Project Focus
+- Learning and experimenting with LangChain
+- Building practical LLM applications
+- Exploring AI/ML patterns and best practices
+
+## Key Concepts
+- Chains and agents
+- Prompt engineering
+- Document loaders and vector stores
+- Memory management
+- Tool integration
+
+## Development Guidelines
+- Start with simple examples
+- Document learnings in `/docs`
+- Keep experiments organized
+- Version control all changes
+- Use meaningful commit messages
+
+## Future Directions
+- Production applications
+- Advanced agent patterns
+- Custom tools and integrations
+- Performance optimization
+

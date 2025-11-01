@@ -20,7 +20,7 @@ from langchain_core.messages import HumanMessage, AIMessage, ToolMessage
 from langgraph.graph import StateGraph, END
 from langgraph.prebuilt import ToolNode
 from langchain_core.tools import tool
-from typing import Annotated, Sequence, TypedDict
+from typing import Annotated, Sequence, TypedDict, Union
 import operator
 
 # Load environment variables
@@ -29,7 +29,7 @@ load_dotenv('python/.env')
 # Define the state for our multi-agent workflow
 class AgentState(TypedDict):
     """State shared between agents in the workflow."""
-    messages: Annotated[Sequence[HumanMessage | AIMessage | ToolMessage], operator.add]
+    messages: Annotated[Sequence[Union[HumanMessage, AIMessage, ToolMessage]], operator.add]
     next_agent: str  # Which agent should act next
 
 # Define tools for our agents
